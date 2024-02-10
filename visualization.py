@@ -226,14 +226,14 @@ elif option == 'State wise':
         col1, col2, col3 = st.columns(3)
         with col1:
             st_tr_st = st.selectbox('**Select State**', (
-            'Andaman & Nicobar', 'andhra-pradesh', 'arunachal-pradesh', 'assam', 'bihar',
-            'chandigarh', 'chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'delhi', 'goa', 'gujarat', 'haryana',
-            'himachal-pradesh',
-            'jammu-&-kashmir', 'jharkhand', 'karnataka', 'kerala', 'ladakh', 'lakshadweep', 'madhya-pradesh',
-            'maharashtra', 'manipur',
-            'meghalaya', 'mizoram', 'nagaland', 'odisha', 'puducherry', 'punjab', 'rajasthan', 'sikkim', 'tamil-nadu',
-            'telangana',
-            'tripura', 'uttar-pradesh', 'uttarakhand', 'west-bengal'), key='st_tr_st')
+            'Andaman & Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar',
+            'Chandigarh', 'Chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi', 'Goa', 'Gujarat', 'Haryana',
+            'Himachal Pradesh',
+            'Jammu & Kashmir', 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep', 'Madhya Pradesh',
+            'Maharashtra', 'Manipur',
+            'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Puducherry', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
+            'Telangana',
+            'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal'), key='st_tr_st')
         with col2:
             st_tr_yr = st.selectbox('**Select Year**', ('2018', '2019', '2020', '2021', '2022', '2023'), key='st_tr_yr')
         with col3:
@@ -306,14 +306,14 @@ elif option == 'State wise':
         col5, col6 = st.columns(2)
         with col5:
             st_us_st = st.selectbox('**Select State**', (
-            'Andaman & Nicobar', 'andhra-pradesh', 'arunachal-pradesh', 'assam', 'bihar',
-            'chandigarh', 'chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'delhi', 'goa', 'gujarat', 'haryana',
-            'himachal-pradesh',
-            'jammu-&-kashmir', 'jharkhand', 'karnataka', 'kerala', 'ladakh', 'lakshadweep', 'madhya-pradesh',
-            'maharashtra', 'manipur',
-            'meghalaya', 'mizoram', 'nagaland', 'odisha', 'puducherry', 'punjab', 'rajasthan', 'sikkim', 'tamil-nadu',
-            'telangana',
-            'tripura', 'uttar-pradesh', 'uttarakhand', 'west-bengal'), key='st_us_st')
+            'Andaman & Nicobar', 'Andhra Pradesh', 'Arunachal Pradesh', 'Assam', 'Bihar',
+            'Chandigarh', 'Chhattisgarh', 'Dadra and Nagar Haveli and Daman and Diu', 'Delhi', 'Goa', 'Gujarat', 'Haryana',
+            'Himachal Pradesh',
+            'Jammu & Kashmir', 'Jharkhand', 'Karnataka', 'Kerala', 'Ladakh', 'Lakshadweep', 'Madhya Pradesh',
+            'Maharashtra', 'Manipur',
+            'Meghalaya', 'Mizoram', 'Nagaland', 'Odisha', 'Puducherry', 'Punjab', 'Rajasthan', 'Sikkim', 'Tamil Nadu',
+            'Telangana',
+            'Tripura', 'Uttar Pradesh', 'Uttarakhand', 'West Bengal'), key='st_us_st')
         with col6:
             st_us_yr = st.selectbox('**Select Year**', ('2018', '2019', '2020', '2021', '2022', '2023'), key='st_us_yr')
 
