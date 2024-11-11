@@ -1,17 +1,17 @@
 #  Phonepe Pulse Data Visualization
 
-Introduction
+## Introduction
 
   The Phonepe pulse Github repository contains a large amount of data related to various metrics and statistics. The goal is to extract this data and process it to obtain insights and information that can be visualized in a user-friendly manner.
 
-Table of Contents
+## Table of Contents
 
 1.	Key Technologies
 2.	Installation
 3.	Usage
 4.	Workflow
 
-Key Technologies
+## Key Technologies
 
   • Python scripting 
   • plotly 
@@ -20,7 +20,7 @@ Key Technologies
   • Pandas
   
 
-Installation
+## Installation
 
   To run this project, you will need to install the following packages
     pip install streamlit
@@ -30,7 +30,7 @@ Installation
     pip install plotly
    
 
-Usage
+## Usage
 
 To use this project, kindly follow the following steps:
 
@@ -40,7 +40,7 @@ To use this project, kindly follow the following steps:
     3.	Run the Streamlit app: streamlit visualization.py
     4.	Access the app in your browser at http://localhost:8501
 
-Workflow
+## Workflow
 
     Data Retrieval and Transformation:
       Fetched PhonePe Pulse data from PhonePe's Repo via Git Clone.
@@ -66,7 +66,7 @@ Workflow
         Utilized Choropleth maps and other Plotly visualizations for effective data representation.
 
 
-Author
+## Author
 
 @Theressac
 
